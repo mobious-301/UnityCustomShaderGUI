@@ -60,7 +60,7 @@ namespace Scarecrow
         private void SetToggleKeyword(MaterialProperty pro, bool enable)
         {
             //设置Keyword
-            string keyword = pro.name.ToUpperInvariant() + "_ON";
+            string keyword = pro.name.ToUpperInvariant();
             foreach (Material m in pro.targets)
             {
                 if (enable)

@@ -249,7 +249,7 @@ namespace Scarecrow
         private void SetFoldoutEditorKeyword(MaterialProperty pro, bool foldoutEditor)
         {
             //设置正常关键字
-            string keyword = pro.name.ToUpperInvariant() + "_ON";
+            string keyword = pro.name.ToUpperInvariant() ;
             foreach (Material m in pro.targets)
             {
                 if (foldoutEditor)
