@@ -170,7 +170,7 @@ namespace Scarecrow
             {
                 foreach (string options in _enumList)
                 {
-                    string keyword = (pro.name + "_" + options).ToUpperInvariant();
+                    string keyword = ( options).ToUpperInvariant();
                     if (options == _enumList[_optionIndex])
                         m.EnableKeyword(keyword);
                     else
